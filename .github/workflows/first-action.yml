@@ -1,5 +1,8 @@
 name: First Workflow
 
+# Repository Related Workflow Trigger: push, pull_request, create, issues, fork. discussion, watch etc
+# Other Triggers:  workflow_dispatch, repository_dispatch, schedule, workflow_call
+
 on:
   push:
     branches: [ "main" ]
