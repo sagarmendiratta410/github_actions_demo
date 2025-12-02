@@ -8,6 +8,8 @@ on:
     branches: 
      - main 
      - dev-*
+    paths-ignore:
+     - '.github/workflows/*'
   pull_request:
     types: 
       - opened
