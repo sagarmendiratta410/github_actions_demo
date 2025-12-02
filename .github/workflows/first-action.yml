@@ -5,7 +5,9 @@ name: First Workflow
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+     - main 
+     - dev-*
   pull_request:
     types: 
       - opened
