@@ -9,7 +9,7 @@ on:
      - main 
      - dev-*
     paths-ignore:
-     - '.github/workflows/*'
+     - '.github/abc/*'
   pull_request:
     types: 
       - opened
